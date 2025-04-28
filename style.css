@@ -545,6 +545,22 @@ margin-top: 50px;
     color:#595959; 
 }
 
+/* Adjusting the font size of the main title 
+and the width of the cards in the benefits section
+ */
+@media screen and (min-width: 400px) {
+    .hero .title {
+        font-size: 2.75rem; 
+        transform: translateY(-8px);
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .benefit-card { 
+    width: 350px;
+}
+}
+
 
 
 
