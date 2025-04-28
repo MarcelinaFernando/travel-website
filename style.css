@@ -269,6 +269,115 @@ z-index: 4;
 }
 
 
+/* Styling of the third section "Benefits Section"*/
+
+.benefits {
+    width: 100%;
+    min-height: 1096px; 
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    background-color: #f9f9fb;
+    align-items: center; 
+    justify-content: center;
+}
+
+/* Header Centering and Styling */
+.benefits-header {
+display: flex;
+flex-direction: column;
+gap: 12px;
+margin-top: 60px;
+align-items: center; 
+text-align: center;
+background-color: #f9f9fb; 
+padding: 0 30px;
+
+}
+/* Card Style */
+.benefit-card {
+        width: 335px;
+        min-height: 257px;
+        display: flex; 
+        flex-direction: column; 
+        gap: 12px;
+        padding: 28px 20px 32px 20px;
+        background-color: #ffffff;
+        margin-top: -25px;
+}
+
+.card-highlighted {
+    min-height: 254px;
+    background-color: #25A59E;
+    margin-top: 0;
+}
+
+.benefit-card h3 {
+    font-family: "Gilda Display", serif;
+    font-weight: 400;
+    font-size: 1.75rem;
+    line-height: 40px;
+    letter-spacing: 0%;
+    color: #262626;
+}
+
+.benefit-card p {
+    font-family: "Urbanist", sans-serif;
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 23px;
+    letter-spacing: 0%;
+    color: #737373;
+}
+
+.card-highlighted h3, .card-highlighted p {
+    color: #ffffff;
+}
+
+.card-highlighted p {
+    font-family: "Urbanist", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.card-action {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: flex-end;
+    gap: 12px; 
+    margin-top: 22px;
+    font-family: "Gilda Display", serif;
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 23px;
+    letter-spacing: 0%;
+    color: #25A59E;
+}
+
+.card-action img {
+    width: 16px;
+    height: 16px;
+    margin-bottom: 8px;
+}
+.highlighted-action{
+    font-family: "Gilda Display", serif;
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #ffffff;
+}
+
+.Benefits-divider{
+    width: 335.33px;
+    height: 4px;
+    background-color: #25A59E;
+    border: none;
+    
+}
 
 
 
