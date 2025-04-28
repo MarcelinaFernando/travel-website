@@ -422,6 +422,30 @@ margin-top: 50px;
     
 }
 
+/* Styling of the fifth section "Video Section"*/
+
+.video-section {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding:30px 0;
+    gap: 24px;
+    background-color: #f9f9fb;;
+    
+}
+.video-section .video-preview {
+    width: 100%;
+    min-height: 220px; 
+    
+}
+.video-section h2 {
+    text-align: center; 
+    margin: 0 auto; 
+}
+
+
+
 
 
 
