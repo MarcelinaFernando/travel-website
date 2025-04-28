@@ -89,8 +89,55 @@ p {
         padding-top: 24px;
     }
     
-
+/* Styling the first section "Hero Section"*/
     
+.hero {
+    width: 100%; 
+    min-height: 311px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    position: relative;
+    padding-top: 50px; 
+    overflow: hidden;
+
+    /* Background with multiple images */
+
+background: 
+url('images/img/Ellipse.png') bottom center no-repeat, /* Circle first */
+url('images/img/Blurry.png') top center/cover no-repeat; /* Gradient after */
+background-size: auto, cover;
+background-position: bottom  -150px, top center;
+}
+
+.hero .title {
+    position: relative;
+    z-index: 5;
+    font-family: "Gilda Display", serif;
+    font-size: 3.25rem; 
+    font-weight: 400;
+    color: #262626;
+    line-height: 100%;
+    text-align: center;
+    margin-top: -70px;
+}
+
+.highlight {
+    color: #25A59E;
+}
+
+.hero .travel-image {
+position: absolute;
+bottom: -35px; 
+left: 50%; 
+transform: translateX(-50%); 
+width: 100%; 
+min-height: 228px;
+z-index: 4;
+}
+
 
 
 
