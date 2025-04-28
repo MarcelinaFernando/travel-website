@@ -139,6 +139,137 @@ z-index: 4;
 }
 
 
+/* Styling of the second section "Section with Destiny Cards"*/
+
+.destination-header {
+    gap: 20px;
+    padding: 80px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+/* First card */
+.first-card {
+    width: auto;
+    min-height: 378px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 12px 12px 0 12px; 
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid #F2F2F2;
+    box-shadow: 
+    -55.45px 50.41px 98px 0px rgba(55, 54, 100, 0.04), 
+    105.45px 50.41px 78.04px 0px rgba(55, 54, 100, 0.05);
+}
+
+.first-card .card-image {
+    width: 100%;
+    min-height: 262px;
+}
+
+.first-card .card-location {
+    width: 100%;
+    min-height: 60px;
+    gap: 8px;
+    padding: 0 4px;
+    display: flex;
+    align-items: center; 
+    flex-direction: row;
+    margin-top: -30px;
+}
+
+.first-card .card-title {
+    font-family: Urbanist;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #262626; 
+}
+
+.first-card .location-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.first-card .card-location p {
+    font-family: Urbanist;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #595959;
+}
+
+.destinations-section{
+    width: 100%;
+}
+
+.destination-card {
+    width: 100%;
+    height: auto;
+    padding: 16px 16px 10px 16px;
+    margin-top: 16px;
+    border: 1px solid #F2F2F2;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    box-shadow: 
+    -55.45px 50.41px 98px 0px rgba(55, 54, 100, 0.04), 
+    105.45px 50.41px 78.04px 0px rgba(55, 54, 100, 0.05);
+}
+
+/* Images of destination cards */
+.destination-card .card-image {
+    width: 100%;
+    min-height: 248px;
+}
+
+/* Title of destination cards */
+.destination-card .card-title {
+    font-family: Urbanist;
+    font-weight: 700;
+    font-size: 1.5rem; 
+    line-height: 36px;
+    letter-spacing: 0%;
+    color: #262626;
+    margin-bottom: 10px;
+    
+}
+/* Location */
+.destination-card .card-location {
+    display: flex;
+    align-items: center; 
+    gap: 8px;
+    flex-direction: row;
+    margin-bottom: 30px;
+    
+}
+/* Location icon */
+.destination-card .location-icon {
+    width: 24px;
+    height: 24px;
+}
+/* Location text  */
+.destination-card .card-location p {
+    font-family: Urbanist;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #595959;
+}
+
+.second-card {
+    margin-top: 30px; 
+    margin-bottom: -15px;
+}
+
+
+
 
 
 
