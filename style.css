@@ -303,13 +303,14 @@ padding: 0 30px;
         gap: 12px;
         padding: 28px 20px 32px 20px;
         background-color: #ffffff;
-        margin-top: -25px;
+        
 }
 
 .card-highlighted {
     min-height: 254px;
     background-color: #25A59E;
-    margin-top: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .benefit-card h3 {
@@ -429,7 +430,7 @@ margin-top: 50px;
     min-height: 400px;
     display: flex;
     flex-direction: column;
-    padding:30px 0;
+    padding: 30px 0 0 0;
     gap: 24px;
     background-color: #f9f9fb;;
     
@@ -462,7 +463,6 @@ margin-top: 50px;
     flex-direction: column; 
     gap: 16px; 
 }
-
 .offer-button {
 
     width: 147px;
@@ -487,6 +487,12 @@ margin-top: 50px;
     border-width: 1px;
     border: 1px solid #D9D9D9;
 }
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+  }
 
 /* Travel Information */
 .travel-info {
@@ -544,7 +550,6 @@ margin-top: 50px;
     text-decoration: none;
     color:#595959; 
 }
-
 /* Adjusting the font size of the main title 
 and the width of the cards in the benefits section
  */
@@ -570,6 +575,9 @@ and the width of the cards in the benefits section
 
 
 
+  
+  
 
+  
 
 
