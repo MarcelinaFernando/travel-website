@@ -575,15 +575,9 @@ and the width of the cards in the benefits section
     letter-spacing: 2px;
   }
 
-  .menu-mobile {
-    display: none;
-  }
-
   .menu-desktop {
-    display: block;
-    width: 28px;
-    height: 23px;
-  }
+        display: none;
+    }
 
   .hero-content .title {
     font-size: 5rem;
@@ -836,6 +830,433 @@ and the width of the cards in the benefits section
     font-size: 1.25rem;
   }   
   }
+
+
+  /* Media query: adjustments for desktop screen layout */
+
+@media (min-width: 1024px) {
+
+ /* Hero section */
+
+header {
+    max-width: 1440px;
+    min-height: auto;
+  }
+
+  .mobile-menu {
+    display:flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin-top: 30px;
+  }
+
+  .logo {
+    font-size: 1.75rem;
+    line-height: 100%;
+    letter-spacing: 2.8px;
+  }
+  .menu-icon {
+        display: none;
+        width: 28px;
+        height: 23px; 
+    }
+
+    .menu-desktop {
+        display: block;
+    }
+
+  .hero-content .title {
+    font-size: 10.625rem;
+    letter-spacing: 0;
+    margin-top: -80px;
+  }
+
+  .header-img {
+    width:  1440px;  
+    height: auto; 
+  }
+
+  .blurry-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .ellipse-image {
+    width: 900px;
+    height: auto;
+    position: absolute;
+    bottom: -30px;
+  }
+
+  .travel-image {
+    bottom: 0;
+    width: 1072px;
+    height: 655px; 
+  }
+
+/* Destination section */
+
+  .destinations-section {
+    max-width: 1440px;
+    height: auto;
+    margin: 0 auto;
+    padding: 100px 120px;
+    background-color: #f9f9fb;
+  }
+
+  .destination-header {
+    text-align: center;
+    align-items: center;
+    padding: 0;
+    margin-top:  -40px;
+  }
+  
+  .destination-header h2 {
+    font-weight: 400;
+    font-size: 4.5rem;
+    line-height: 84px;
+    letter-spacing: 0%;
+  }
+
+  .destination-header p {
+    font-weight: 500;
+    font-size:  1.5rem;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #737373; 
+  }
+
+  .cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-top: 60px;
+  }
+
+  .first-card,
+  .destination-card {
+    margin: 0;
+    width: 100%;
+    box-shadow: -55.45px 50.41px 98px 0px #3736640A,
+    105.45px 50.41px 78.04px 0px #3736640D;
+  }
+
+  .first-card {
+    width: 100%;
+    height: auto;
+    padding: 16px 16px 0 16px;
+    background-color: #FFFFFF;
+  }
+
+  .first-card .card-image {
+    width: 100%;
+    height: 248px;
+  }
+
+  .first-card .card-title {
+    font-family: Urbanist;
+    font-weight: 700;
+    font-size: 1.5rem; 
+    line-height: 36px;
+    letter-spacing: 0%;
+    color: #262626;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .first-card .card-location {
+    display: flex;
+    align-items: center; 
+    gap: 8px;
+    flex-direction: row;
+  }
+  
+  .first-card .location-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .first-card .card-location p {
+    font-family: Urbanist;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #595959;
+  }
+
+/* Benefits section */
+
+  .benefits {
+      max-width: 1440px;
+      height: auto;
+      padding: 0 120px;
+      display: flex;
+      gap: 60px;
+      margin-top: -150px;
+      margin-bottom: -120px;
+    }
+    
+
+  .benefits-header {
+    max-width: 879px;
+    display: flex;
+    gap: 24px;
+    margin: 0 auto; 
+  }
+  .benefits-header h2 {
+    font-weight: 400;
+    font-size: 4.5rem;   
+    line-height: 84px;
+    letter-spacing: 0;
+    text-align: center;
+  }
+  
+  .benefits-header h2 br {
+    display: none;
+  }
+  .benefits-header p {
+    width: 879px;
+    height: 96px;
+    font-weight: 500;
+    font-size: 1.125rem;     
+    line-height: 32px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #737373;
+}
+
+  .benefits-cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 28px;
+    max-width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .Benefits-divider {
+    width: 100%;
+    height: 4px;
+    background-color: #25A59E;
+    margin-bottom: -2px; 
+  }
+
+  .benefit-card h3 {
+    font-weight: 400;
+    font-size: 2.5rem; 
+    line-height: 62px;
+    letter-spacing: 0;
+  }
+
+  .benefit-card p {
+    font-weight: 400;
+    font-size: 1.125rem; 
+    line-height: 32px;
+    letter-spacing: 0;
+    color: #737373; 
+  }
+  .card-highlighted p {
+    color: #ffffff;
+  }
+
+  .card-action {
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 100%;
+    letter-spacing: 0;
+  }
+
+  .card-highlighted .highlighted-action {
+    font-weight: 400;
+    font-size: 1.25rem; 
+    line-height: 100%;
+    letter-spacing: 0;
+  }
+
+  .benefit-card {
+      max-width: 381.333px; 
+      height: auto;
+      padding: 40px 20px 48px 20px;
+      box-shadow: 10px 26px 150px 0px #4343641A;
+    }
+
+    .card-highlighted {
+      margin-top: 0;
+    }
+
+    .benefit-card h3 strong br {
+      display: none;
+    }
+
+/* Promo section */
+
+  .promo-section {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1440px;
+    height: auto;
+    padding: 0 120px;
+    gap: 26px; 
+  }
+
+  .promo-header {
+    flex: 1;
+    max-width: 534px;
+    margin: 0;
+  }
+
+  .promo-header h2 {
+      font-weight: 400;
+      font-size: 4.5rem;
+      line-height: 84px;
+      letter-spacing: 0;
+    }
+
+  .promo-header p {
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 32px;
+    letter-spacing: 0;
+    color: #737373;
+  }
+
+  .promo-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    padding-top: 40px; 
+  }
+
+  .promo-image .img-travelers-map {
+    max-width: 658px;
+    height: auto;
+  }
+
+/* Video section */
+
+  .video-section {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 100px;
+    margin-bottom: 50px;
+
+  }
+  .video-section h2 {
+    font-weight: 400;
+    font-size: 4.5rem;
+    line-height: 84px;
+    letter-spacing: 0;
+    text-align: center;
+    margin: 0;
+  }
+.desktop-break {
+    display: block;
+  }
+  .video-preview {
+    width: 100%;
+    max-width: 1440px;
+    height: 600px;
+    object-fit: cover;
+    transform: scaleY(-1);
+  }
+
+/*footer*/
+
+  .footer {
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    max-width: 1440px;
+    height: 567px;
+    margin: 0 auto;
+    padding-top: 48px;
+    padding-bottom: 100px;
+}
+  .offer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+  }
+
+  .offer h2 {
+      font-weight: 400;
+      font-size: 4.5rem;
+      line-height: 84px;
+      letter-spacing: 0%;
+      text-align: center;
+  }
+
+  .travel-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1440px;
+    height: 207px;
+    padding: 0 80px 0 80px;
+  }
+
+  .travel-info .highlight {
+    font-size: 1.75rem;
+  }
+
+  .travel-info p {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+  }
+
+  .break-desktop {
+    display: block; 
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px 0 80px;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .footer-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+  .footer-menu ul {
+    display: flex;
+    gap: 40px;
+  }
+
+  .footer-menu li a {
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 32px;
+    letter-spacing: 0%;
+  }
+
+  .footer-divider {
+    max-width: 1440px;
+    width: 100%;
+}
+
+}
+
 
 
 
