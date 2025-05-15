@@ -1134,44 +1134,52 @@ header {
     justify-content: center;
     align-items: flex-end; 
     padding-top: 40px; 
-  }
+}
 
-  .promo-image .img-travelers-map {
+.promo-image .img-travelers-map {
     max-width: 658px;
     height: auto;
-  }
+}
 
 /* Video section */
 
-  .video-section {
+.video-section {
     max-width: 1440px;
     margin: 0 auto;
     padding-top: 100px;
     margin-bottom: 50px;
-
-  }
-  .video-section h2 {
+}
+.video-section h2 {
     font-weight: 400;
     font-size: 4.5rem;
     line-height: 84px;
     letter-spacing: 0;
     text-align: center;
     margin: 0;
-  }
+}
 .desktop-break {
     display: block;
-  }
-  .video-preview {
-    width: 100%;
-    max-width: 1440px;
+}
+.video-preview {
+    display: none;
+}
+
+.travel-video {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    width: 100vw;
     height: 600px;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 0;
+    display: block;
     object-fit: cover;
-    transform: scaleY(-1);
-  }
+}
 
 /*footer*/
 
-  .footer {
+.footer {
     display: flex;
     gap: 40px;
     width: 100%;
