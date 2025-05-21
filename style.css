@@ -803,6 +803,9 @@ and the width of the cards in the benefits section
     object-fit: cover;
     transform: scaleY(-1);
   }
+  .travel-video {
+    display: none;
+  }
 
   /* footer */
 .offer {
