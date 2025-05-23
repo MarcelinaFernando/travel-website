@@ -18,6 +18,8 @@
         <p class="logo"><strong>Travel</strong></p>
         <!-- Menu icon (static image) -->
         <img src="images/icons/menu.svg" alt="Menu icon" class="menu-icon">
+        <!-- Ícone do menu para desktop -->
+        <img src="images/icons/menu-desktop.svg" alt="Menu icon desktop" class="menu-icon menu-desktop">
         </nav>
         </div>
         <div class="hero-content">
@@ -35,8 +37,7 @@
 
     <main>
         <!-- Start of the second section "Section with Destination Cards"-->
-
-    <section class="destinations-section">                
+        <section class="destinations-section">                
         <!-- Section header-->
                 <header class="destination-header">
                     <h2>Find your best destination</h2>
@@ -49,7 +50,7 @@
                     <img src="images/img/Image Card(1).png" alt="Mirror Lake" class="card-image">
                         <h3 class="card-title">Mirror Lake</h3>
                         <div class="card-location">
-                            <img src="images/icons/Location.svg" alt="Location Icon" class="location-icon">
+                            <img src="images/icons/location.svg" alt="Location Icon" class="location-icon">
                             <p>Jawa Tengah, Indonesia</p>
                         </div>
                 </article>
@@ -64,8 +65,6 @@
                         </div>
                     </div>
                 </article>
-        
-        
         
                 <article class="destination-card">
                     <img src="images/img/Image Card(3).png" alt="Oeschinen Lake" class="card-image">
@@ -101,7 +100,6 @@
                     </div>
                 </article>
         
-        
                 <article class="destination-card">
                     <img src="images/img/Image Card(6).png" alt="Negeri di atas Awan" class="card-image">
                     <div class="card-content">
@@ -114,7 +112,6 @@
                 </article>
                 </div>
             </section>
-
 
             <!-- Start of the third section "Benefits Section"-->
 
@@ -170,7 +167,7 @@
             </div>
         </article>
         </div>
-        </section>
+    </section>
     
         <!--Start of the fourth section "Promo Section" -->
 
@@ -186,8 +183,13 @@
 
 <!-- Start of the fifth section "Video Section"-->
 <section class="video-section">
-    <h2>Watch our entire <br> <span class="trip-desktop">trip</span> <br>  documentation</h2>
+    <h2>
+        Watch our entire trip<br class="desktop-break">documentation
+    </h2>
     <img src="images/img/Video.png" alt="Paused video with clouds and a play icon." class="video-preview">
+    <video class="travel-video" autoplay muted loop>
+    <source src="video/travel video.mp4" type="video/mp4">
+    </video>
 </section>
 </main>
 
@@ -205,8 +207,7 @@
     <!-- Travel Information -->
     <div class="travel-info">
         <h3 class="highlight"><strong> Travel </strong></h3>
-        <p>The best travel agent in the world. Contact us immediately now!</p>
-        
+        <p>The best travel agent in the world. <span class="break-desktop">Contact us immediately now!</span></p> 
     </div>
     <div class="footer-content">        
     <!-- Social media icons -->          
